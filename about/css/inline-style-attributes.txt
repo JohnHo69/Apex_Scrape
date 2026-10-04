@@ -1,0 +1,52 @@
+body: padding:0;margin:0;
+div: 
+span: display: unset;
+div: 
+span: display: unset;
+div: 
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+div: 
+span: color: var(--color_8); display: initial;
+div: 
+span: color: var(--color_8); display: initial;
+span: color: var(--color_8); display: initial;
+span: color: var(--color_8); display: initial;
+span: color: var(--color_8); display: initial;
+span: color: var(--color_8); display: initial;
+div: 
+span: display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: display: initial;
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_1);
+div: 
+div: 
+div: display:none;

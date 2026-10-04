@@ -1,0 +1,69 @@
+body: padding:0;margin:0;
+div: 
+span: display: initial;
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/553d33bf/dms3rep/multi/opt/pexels-photo-11196384-1280w.jpg');
+div: 
+a: 
+iframe: border:0;
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_1);
+div: 
+div: 
+div: display:none;
