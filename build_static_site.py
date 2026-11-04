@@ -161,6 +161,17 @@ def rewrite_html(html, asset_url_map, page_path_depth):
     # 6. Fix canonical URL to be relative or remove it
     # Keep canonical but update domain later when custom domain is set
 
+    # 7. Sanitize Mapbox tokens to comply with GitHub Push Protection
+    html = re.sub(
+        r'rtCommonProps\["common\.mapbox\.token"\]\s*=\s*[\'"][^\'"]*[\'"];?',
+        'rtCommonProps["common.mapbox.token"] = "";',
+        html,
+    )
+    html = html.replace(
+        "pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw",
+        "",
+    )
+
     return html
 
 
@@ -241,6 +252,11 @@ def copy_assets():
     asset_types = ["css", "javascript", "image", "font", "other"]
     total_copied = 0
 
+    valid_other_exts = (
+        ".ico", ".json", ".xml", ".txt", ".svg", ".png", ".jpg", ".jpeg",
+        ".webp", ".gif", ".css", ".js", ".woff", ".woff2", ".ttf", ".eot"
+    )
+
     for asset_type in asset_types:
         src_dir = src_assets / asset_type
         dst_dir = dst_assets / asset_type
@@ -250,9 +266,14 @@ def copy_assets():
 
         dst_dir.mkdir(parents=True, exist_ok=True)
         for f in src_dir.iterdir():
-            if f.is_file():
-                shutil.copy2(f, dst_dir / f.name)
-                total_copied += 1
+            if not f.is_file():
+                continue
+            # For 'other' directory, skip raw HTML crawler page dumps
+            if asset_type == "other":
+                if not any(f.name.lower().endswith(ext) for ext in valid_other_exts):
+                    continue
+            shutil.copy2(f, dst_dir / f.name)
+            total_copied += 1
 
     print(f"  Copied {total_copied} asset files")
     return total_copied
@@ -440,6 +461,39 @@ def create_404_page(asset_url_map):
     print("  Created 404.html")
 
 
+def create_dist_readme():
+    """Create README.md inside dist for web deployment documentation."""
+    content = """# Apex Epoxy Flooring Solutions - Production Web Build
+
+Production-ready static website bundle for Apex Epoxy Flooring Solutions.
+
+## Features
+- **41 Static Pages**: Complete page set with clean URLs and self-contained static assets.
+- **Local Assets**: All images, CSS, JavaScript, and fonts hosted locally without external CDN dependencies.
+- **Feeds**: Full RSS2 and Atom XML feeds included at `/feed/rss2` and `/feed/atom`.
+- **SEO & Search**: `sitemap.xml`, `robots.txt`, and `llms.txt` pre-configured.
+- **Routing**: `vercel.json` included for clean URLs, redirect fallbacks, and long-term asset caching headers.
+- **Custom 404**: Branded `404.html` page included.
+
+## Deployment
+
+### Vercel
+Connect this repository to Vercel or run:
+```bash
+vercel --prod
+```
+
+### Local Preview
+```bash
+python -m http.server 3000
+```
+Open [http://localhost:3000](http://localhost:3000).
+"""
+    with open(OUTPUT_DIR / "README.md", "w", encoding="utf-8") as f:
+        f.write(content)
+    print("  Created dist/README.md")
+
+
 def main():
     print("=" * 60)
     print("APEX EPOXY STATIC SITE BUILDER")
@@ -484,11 +538,12 @@ def main():
     print("\n[5/6] Copying public endpoints...")
     copy_public_endpoints()
 
-    # Create Vercel config, helper redirects, and 404 page
+    # Create Vercel config, helper redirects, 404 page, and README
     print("\n[6/6] Creating deployment config...")
     create_vercel_json()
     create_helper_redirects()
     create_404_page(asset_url_map)
+    create_dist_readme()
 
     # Summary
     print("\n" + "=" * 60)
