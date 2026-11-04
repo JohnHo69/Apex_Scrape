@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>[Your company name]</title>
+
+</head>
+
+
+
+<body>
+
+  <style>
+
+    body {
+
+      padding: 100px;
+
+      font-family: Helvetica, Arial, sans-serif;
+
+    }
+
+
+
+    .container {
+
+      position: absolute;
+
+      top: 20px;
+
+      left: 20px;
+
+      right: 20px;
+
+      bottom: 20px;
+
+      pointer-events: none;
+
+    }
+
+
+
+    iframe {
+
+      border: none;
+
+      border-radius: 4px;
+
+      box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
+
+      border-radius: 4px;
+
+    }
+
+  </style>
+
+  <div id="containerId" class="container"></div>
+
+  <script src="https://sdk.picsart.io/cdn?v=1.11&key=sdk"></script>
+
+  <script>
+
+    const downloadFile = (blob, fileName) => {
+
+      const link = document.createElement('a');
+
+      link.href = URL.createObjectURL(blob);
+
+      link.download = fileName;
+
+      document.body.append(link);
+
+      link.click();
+
+      link.remove();
+
+    };
+
+
+
+    const queryString = window.location.search;
+
+    const urlParams = new URLSearchParams(queryString);
+
+    const apiKey = 'eyJraWQiOiI5NzIxYmUzNi1iMjcwLTQ5ZDUtOTc1Ni05ZDU5N2M4NmIwNTEiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhdXRoLXNlcnZpY2UtOTEwNDEzYWQtNjk0Yi00ZTdmLThiZDAtMjhlODllNTdlYzM5IiwiYXVkIjoiMzcxODYzMjE3MDMyMTAxIiwibmJmIjoxNzI3MzIyMTA1LCJzY29wZSI6WyJiMmItYXBpLmNvbnRlbnRfZGlzY292ZXJ5IiwiYjJiLWFwaS5nZW5fYWkiLCJiMmItYXBpLnJldmVudWVfdHJhY2tpbmciLCJiMmItYXBpLmltYWdlX2FwaSJdLCJpc3MiOiJodHRwczovL2FwaS5waWNzYXJ0LmNvbS90b2tlbi1zZXJ2aWNlIiwib3duZXJJZCI6IjQ2NDg1NjU1MzAxMDEwMSIsImV4cCI6MTcyOTkxNDA5NywiaWF0IjoxNzI3MzIyMTA1LCJqdGkiOiJkNjlhMWRiNC05MjAxLTRiNjItYjUyYi0zN2EzMDE1ZGQ0NWQifQ.B8JaVjqAhi7TXy-sn--6HN4ymygzpc8GJwhpZYv0NSHSzqVQPNP8thFcryr_Paudk6DlVUdreOje6Z6Dt7aIAb_oGJ0zUJwdSvees-uyNWk1ysvSt5p6lS662hjDIhgDb8GFb9LYrRzQIHYWCNL8VWGeim0TsLB3abrVNFPo2no8h8gYz_sZxwWuIxNqOvMXvMz3jXeaGdFOcfui-wnCvf1fn18nrTLRBOLQGfGw21Mt8h3Ro8wtZIQ5RqOu2VelzCixNyWHpbpipIiTBvmjzbrmSlU9566PA8Pzybt_xsP-lkQW_WX-VmwwC-V1O1YHA4d-pTE8tUvvQmNAFerpSw';
+
+
+
+    const PicsartInstance = new Picsart({
+
+      propertyId: 'yourdomainaddress.com', // example: 'picsart.com'
+
+      containerId: 'containerId',
+
+      apiKey: 'eyJraWQiOiI5NzIxYmUzNi1iMjcwLTQ5ZDUtOTc1Ni05ZDU5N2M4NmIwNTEiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJhdXRoLXNlcnZpY2UtOTEwNDEzYWQtNjk0Yi00ZTdmLThiZDAtMjhlODllNTdlYzM5IiwiYXVkIjoiMzcxODYzMjE3MDMyMTAxIiwibmJmIjoxNzI3MzIyMTA1LCJzY29wZSI6WyJiMmItYXBpLmNvbnRlbnRfZGlzY292ZXJ5IiwiYjJiLWFwaS5nZW5fYWkiLCJiMmItYXBpLnJldmVudWVfdHJhY2tpbmciLCJiMmItYXBpLmltYWdlX2FwaSJdLCJpc3MiOiJodHRwczovL2FwaS5waWNzYXJ0LmNvbS90b2tlbi1zZXJ2aWNlIiwib3duZXJJZCI6IjQ2NDg1NjU1MzAxMDEwMSIsImV4cCI6MTcyOTkxNDA5NywiaWF0IjoxNzI3MzIyMTA1LCJqdGkiOiJkNjlhMWRiNC05MjAxLTRiNjItYjUyYi0zN2EzMDE1ZGQ0NWQifQ.B8JaVjqAhi7TXy-sn--6HN4ymygzpc8GJwhpZYv0NSHSzqVQPNP8thFcryr_Paudk6DlVUdreOje6Z6Dt7aIAb_oGJ0zUJwdSvees-uyNWk1ysvSt5p6lS662hjDIhgDb8GFb9LYrRzQIHYWCNL8VWGeim0TsLB3abrVNFPo2no8h8gYz_sZxwWuIxNqOvMXvMz3jXeaGdFOcfui-wnCvf1fn18nrTLRBOLQGfGw21Mt8h3Ro8wtZIQ5RqOu2VelzCixNyWHpbpipIiTBvmjzbrmSlU9566PA8Pzybt_xsP-lkQW_WX-VmwwC-V1O1YHA4d-pTE8tUvvQmNAFerpSw',
+
+      logo: 'https://cookie-cdn.cookiepro.com/logos/11172494-cfb9-422e-9c35-e6bcfa9215f8/87d4c4c1-59d8-4214-b1d9-de359ee45be1/logo_300dpi.png',
+
+      usePicsartInventory: true,
+
+      exportFormats: ['image/jpeg'],
+
+      exportType: 'blob',
+
+      mode: 'image',
+
+      theme: 'light', // turns the color mode of the UI into lighter colors,
+
+      branding: {  
+        accents: '#df5730',  
+        // hover: '#EED792',  
+        // main: '#ffffff',  
+        // texts: '#FFFFFF',  
+        // background: '#ffffff',  
+        fonts: [/* see below for details*/]
+      },
+
+      features: {
+
+        undoRedoControls: true,
+
+        zoomControls: true,
+
+        tools: [
+
+          'crop',    
+          'edit',
+          'effects',
+
+            'color',
+
+            'gradient',
+
+            'eraser',
+
+            'duplicate',
+
+            'adjust',
+
+            'font',
+
+            'border',
+
+            'outline',
+
+            'shadow',
+
+            'flip_rotate',
+
+            'position',
+
+            'tool_removeBG',
+            'animation'
+
+          ],
+
+      },
+
+      miniapps: { // disable this if genai api is not included
+
+        t2i: true,
+
+      },
+
+      textSettings: {
+
+        fontsFolderView: true,
+
+      },
+
+      categories: {
+
+        resize: {
+
+title: true,
+
+},
+        layout: {
+
+          title: true,
+
+        },
+
+        templates: {
+
+          title: true,
+
+        },
+
+        photos: {
+
+          thumbnailHeader: true,
+
+        },
+
+        resize: {
+
+          title: true,
+
+    },
+
+        text: {
+
+          title: true,
+
+        },
+
+        uploads: {
+
+          title: true,
+
+          tabs: ['Images'],
+
+        },
+
+        elements: {
+
+          smallTitle: true,
+
+        },
+
+        background: {
+
+          header: true,
+
+          tabs: ['Color', 'Upload', 'Library']
+
+        },
+
+      },
+
+    });
+
+
+
+    PicsartInstance.provideShapes({ dataURL: 'https://cdn140.picsart.com/41273773997815915185.json' });
+
+    PicsartInstance.provideLabels({
+
+      nextButton: 'Save',
+
+    });
+
+  
+
+
+
+    PicsartInstance.onExport((output) => {
+
+      PicsartInstance.close();
+
+      if (output.data.imageData) downloadFile(output.data.imageData, 'image.jpeg');
+
+    });
+
+
+
+
+
+    PicsartInstance.open({ 
+      selectedTool: 'resize',
+      title: 'Photo editor',
+      imageURL:   'https://irp.cdn-website.com/6871f60c/dms3rep/multi/PHOTO-2024-08-26-12-28-57.jpg',
+
+
+    });
+
+
+
+  </script>
+
+</body>
+
+
+
+</html>

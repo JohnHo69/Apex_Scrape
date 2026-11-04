@@ -1,0 +1,126 @@
+body: padding:0;margin:0;
+div: 
+span: display: unset;
+div: 
+span: display: unset;
+div: 
+span: display: initial;
+span: display: initial;
+strong: display: initial; font-weight: bold;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+strong: display: initial; font-weight: bold;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+strong: display: initial; font-weight: bold;
+span: display: initial;
+div: 
+span: display: initial; color: var(--color_8);
+div: 
+span: display: initial; color: var(--color_1);
+span: display: initial;
+li: color: var(--color_8);
+span: display: initial; color: var(--color_8);
+li: color: var(--color_8);
+span: display: initial; color: var(--color_8);
+li: color: var(--color_8);
+span: display: initial; color: var(--color_8);
+li: color: var(--color_8);
+span: display: initial; color: var(--color_8);
+li: color: var(--color_8);
+span: display: initial; color: var(--color_8);
+span: display: initial; color: var(--color_8);
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/bc6130c2/dms3rep/multi/opt/IMG_1875-1280w.jpg');
+div: display:none
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/bc6130c2/dms3rep/multi/opt/IMG_1700-1280w.jpg');
+div: display:none
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/bc6130c2/dms3rep/multi/opt/IMG_1699-1280w.jpg');
+div: display:none
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/bc6130c2/dms3rep/multi/opt/IMG_1697-1280w.jpg');
+div: display:none
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/bc6130c2/dms3rep/multi/opt/IMG_1696-1280w.jpg');
+div: display:none
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/bc6130c2/dms3rep/multi/opt/IMG_1698-1280w.jpg');
+div: display:none
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/bc6130c2/dms3rep/multi/opt/IMG_1878-1280w.png');
+div: display:none
+a: 
+div: opacity: 1;
+a: background-image: url('https://irp.cdn-website.com/bc6130c2/dms3rep/multi/opt/IMG_1879-1280w.jpg');
+div: display:none
+a: 
+div: 
+span: display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: display: initial;
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: color:var(--color_1);display:unset;font-family:Poppins, 'Poppins Fallback';
+div: 
+span: display: unset;
+div: 
+span: display: unset;
+span: display: unset;
+span: display: initial;
+span: display: unset;
+span: display: unset;
+span: display: unset;
+span: display: unset;
+span: display: unset;
+div: 
+span: display: unset;
+div: 
+span: display: initial;
+span: display: initial;
+span: display: initial;
+div: 
+span: display: unset;
+div: 
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_1);
+div: 
+div: 
+div: display:none;

@@ -1,0 +1,21 @@
+{
+  "final_url": "https://www.apexepoxy-fs.com/contact",
+  "status": 200,
+  "headers": {
+    "server": "nginx",
+    "date": "Thu, 01 Oct 2026 20:00:22 GMT",
+    "content-type": "text/html;charset=utf-8",
+    "content-length": "38392",
+    "etag": "\"1193161038\"",
+    "d-cache": "from-cache",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000; preload",
+    "x-content-type-options": "nosniff",
+    "vary": "user-agent,accept-encoding",
+    "link": "<https://irp.cdn-website.com/bc6130c2/dms3rep/multi/shutterstock_1806208642.jpg>; rel=preload; as=image; fetchpriority=high",
+    "cache-control": "no-cache, must-revalidate",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "speculation-rules": "\"https://static.cdn-website.com/speculations/rules/prerender-1.0.3.json\"",
+    "d-geo": "US"
+  }
+}

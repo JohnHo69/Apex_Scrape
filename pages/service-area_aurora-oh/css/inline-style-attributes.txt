@@ -1,0 +1,38 @@
+body: padding:0;margin:0;
+div: 
+span: display: initial;
+div: 
+span: display: initial;
+div: 
+p: margin:0 0 16px 0;
+p: margin:0 0 16px 0;
+div: 
+h3: 
+span: display: initial; color: var(--color_1);
+div: 
+p: margin:0 0 16px 0;
+p: margin:0 0 16px 0;
+p: margin:0 0 16px 0;
+div: 
+span: display: initial;
+div: 
+p: margin:0 0 16px 0;
+ul: margin:0 0 16px 0;
+p: margin:0 0 16px 0;
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_1);
+div: 
+div: 
+div: display:none;

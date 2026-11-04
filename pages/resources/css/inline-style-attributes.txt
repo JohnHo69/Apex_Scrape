@@ -1,0 +1,45 @@
+body: padding:0;margin:0;
+div: 
+span: display: initial;
+div: -ms-grid-column:1; -ms-grid-row:1
+div: animation-delay: 200.0ms;
+div: background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent.gif');
+div: -ms-grid-column:2; -ms-grid-row:1
+div: animation-delay: 400.0ms;
+div: background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent.gif');
+div: -ms-grid-column:3; -ms-grid-row:1
+div: animation-delay: 600.0ms;
+div: background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent.gif');
+div: -ms-grid-column:1; -ms-grid-row:2
+div: animation-delay: 800.0ms;
+div: background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent.gif');
+div: -ms-grid-column:2; -ms-grid-row:2
+div: animation-delay: 1000.0ms;
+div: background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent.gif');
+div: -ms-grid-column:3; -ms-grid-row:2
+div: animation-delay: 1200.0ms;
+div: -ms-grid-column:1; -ms-grid-row:3
+div: animation-delay: 1400.0ms;
+div: -ms-grid-column:2; -ms-grid-row:3
+div: animation-delay: 1600.0ms;
+div: -ms-grid-column:3; -ms-grid-row:3
+div: animation-delay: 1800.0ms;
+div: -ms-grid-column:1; -ms-grid-row:4
+div: animation-delay: 2000.0ms;
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_1);
+div: 
+div: 
+div: display:none;

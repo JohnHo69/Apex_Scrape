@@ -1,0 +1,22 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/services/epoxy-floor-coatings",
+      "permanent": true
+    },
+    {
+      "source": "/service-area",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    }
+  ]
+}

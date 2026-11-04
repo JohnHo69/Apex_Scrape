@@ -1,0 +1,19 @@
+{
+  "name": "apex-scrape",
+  "version": "1.0.0",
+  "description": "Static website build & scrape archive for Apex Epoxy Flooring Solutions",
+  "scripts": {
+    "build": "python build_static_site.py",
+    "test": "python verify_site.py",
+    "serve": "python -m http.server -d dist 3000"
+  },
+  "keywords": [
+    "epoxy",
+    "flooring",
+    "static-site",
+    "scraper",
+    "vercel"
+  ],
+  "author": "JohnHo69",
+  "license": "UNLICENSED"
+}

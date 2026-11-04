@@ -1,0 +1,20 @@
+{
+  "final_url": "https://www.apexepoxy-fs.com/services/concrete-surface-preparation",
+  "status": 200,
+  "headers": {
+    "server": "nginx",
+    "date": "Thu, 01 Oct 2026 20:01:33 GMT",
+    "content-type": "text/html;charset=utf-8",
+    "content-length": "34521",
+    "etag": "\"-1290051359\"",
+    "d-cache": "from-cache",
+    "content-encoding": "gzip",
+    "strict-transport-security": "max-age=31536000; preload",
+    "x-content-type-options": "nosniff",
+    "vary": "user-agent,accept-encoding",
+    "cache-control": "no-cache, must-revalidate",
+    "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "speculation-rules": "\"https://static.cdn-website.com/speculations/rules/prerender-1.0.3.json\"",
+    "d-geo": "US"
+  }
+}

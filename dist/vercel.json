@@ -1,0 +1,55 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/services/epoxy-floor-coatings",
+      "permanent": true
+    },
+    {
+      "source": "/service-area",
+      "destination": "/areas-we-serve",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/services/:path*",
+      "destination": "/services/:path*"
+    },
+    {
+      "source": "/service-area/:path*",
+      "destination": "/service-area/:path*"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    }
+  ]
+}

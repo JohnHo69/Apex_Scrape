@@ -1,0 +1,142 @@
+[
+  {
+    "endpoint": "/robots.txt",
+    "url": "https://www.apexepoxy-fs.com/robots.txt",
+    "status": 200,
+    "content_type": "text/plain",
+    "bytes": 164,
+    "headers": {
+      "server": "nginx",
+      "date": "Thu, 01 Oct 2026 19:59:13 GMT",
+      "content-type": "text/plain",
+      "content-length": "141",
+      "etag": "\"-576564612\"",
+      "d-cache": "from-cache",
+      "content-encoding": "gzip",
+      "cache-control": "no-cache, must-revalidate",
+      "d-geo": "US"
+    }
+  },
+  {
+    "endpoint": "/sitemap.xml",
+    "url": "https://www.apexepoxy-fs.com/sitemap.xml",
+    "status": 200,
+    "content_type": "text/xml",
+    "bytes": 8399,
+    "headers": {
+      "server": "nginx",
+      "date": "Thu, 01 Oct 2026 19:59:15 GMT",
+      "content-type": "text/xml",
+      "content-length": "778",
+      "etag": "\"-88344663\"",
+      "d-cache": "from-cache",
+      "content-encoding": "gzip",
+      "cache-control": "no-cache, must-revalidate",
+      "d-geo": "US"
+    }
+  },
+  {
+    "endpoint": "/llms.txt",
+    "url": "https://www.apexepoxy-fs.com/llms.txt",
+    "status": 200,
+    "content_type": "text/plain;charset=UTF-8",
+    "bytes": 5752,
+    "headers": {
+      "server": "nginx",
+      "date": "Thu, 01 Oct 2026 19:59:16 GMT",
+      "content-type": "text/plain;charset=UTF-8",
+      "transfer-encoding": "chunked",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "x-content-type-options": "nosniff",
+      "strict-transport-security": "max-age=31536000; preload",
+      "x-robots-tag": "noindex",
+      "vary": "accept-encoding",
+      "content-encoding": "gzip",
+      "d-geo": "US"
+    }
+  },
+  {
+    "endpoint": "/.well-known/security.txt",
+    "url": "https://www.apexepoxy-fs.com/.well-known/security.txt",
+    "status": 404,
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 118261,
+    "headers": {
+      "server": "nginx",
+      "date": "Thu, 01 Oct 2026 19:59:17 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "transfer-encoding": "chunked",
+      "cache-control": "no-cache, must-revalidate",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "x-content-type-options": "nosniff",
+      "strict-transport-security": "max-age=31536000; preload",
+      "vary": "user-agent,accept-encoding",
+      "speculation-rules": "\"https://static.cdn-website.com/speculations/rules/prerender-1.0.3.json\"",
+      "content-encoding": "gzip",
+      "d-geo": "US"
+    }
+  },
+  {
+    "endpoint": "/humans.txt",
+    "url": "https://www.apexepoxy-fs.com/humans.txt",
+    "status": 404,
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 118261,
+    "headers": {
+      "server": "nginx",
+      "date": "Thu, 01 Oct 2026 19:59:18 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "transfer-encoding": "chunked",
+      "cache-control": "no-cache, must-revalidate",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "x-content-type-options": "nosniff",
+      "strict-transport-security": "max-age=31536000; preload",
+      "vary": "user-agent,accept-encoding",
+      "speculation-rules": "\"https://static.cdn-website.com/speculations/rules/prerender-1.0.3.json\"",
+      "content-encoding": "gzip",
+      "d-geo": "US"
+    }
+  },
+  {
+    "endpoint": "/manifest.json",
+    "url": "https://www.apexepoxy-fs.com/manifest.json",
+    "status": 200,
+    "content_type": "application/json;charset=UTF-8",
+    "bytes": 2,
+    "headers": {
+      "server": "nginx",
+      "date": "Thu, 01 Oct 2026 19:59:19 GMT",
+      "content-type": "application/json;charset=UTF-8",
+      "transfer-encoding": "chunked",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "x-content-type-options": "nosniff",
+      "strict-transport-security": "max-age=31536000; preload",
+      "vary": "accept-encoding",
+      "content-encoding": "gzip",
+      "d-geo": "US"
+    }
+  },
+  {
+    "endpoint": "/site.webmanifest",
+    "url": "https://www.apexepoxy-fs.com/site.webmanifest",
+    "status": 404,
+    "content_type": "text/html;charset=utf-8",
+    "bytes": 118261,
+    "headers": {
+      "server": "nginx",
+      "date": "Thu, 01 Oct 2026 19:59:20 GMT",
+      "content-type": "text/html;charset=utf-8",
+      "transfer-encoding": "chunked",
+      "cache-control": "no-cache, must-revalidate",
+      "expires": "Thu, 01 Jan 1970 00:00:00 GMT",
+      "x-content-type-options": "nosniff",
+      "strict-transport-security": "max-age=31536000; preload",
+      "vary": "user-agent,accept-encoding",
+      "speculation-rules": "\"https://static.cdn-website.com/speculations/rules/prerender-1.0.3.json\"",
+      "content-encoding": "gzip",
+      "d-geo": "US"
+    }
+  }
+]

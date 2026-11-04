@@ -1,0 +1,68 @@
+body: padding:0;margin:0;
+div: margin:0px;
+h1: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+h2: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+h2: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+h2: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+h2: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+h2: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+p: margin:0px;
+span: display: unset;
+div: justify-content:space-around;flex-direction:row;align-items:center;display:flex;
+a: float:left;width:100%;text-align:left;
+a: float:right;width:100%;text-align:right;
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_1);
+div: 
+div: 
+div: display:none;

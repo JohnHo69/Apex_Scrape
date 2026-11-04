@@ -1,0 +1,125 @@
+body: padding:0;margin:0;
+div: 
+h1: 
+span: color: var(--color_8); display: unset;
+div: 
+span: color: var(--color_1); display: unset;
+div: 
+span: display: unset;
+div: 
+h4: 
+span: display: unset; color: var(--color_2);
+div: 
+span: display: initial;
+span: display: initial;
+a: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+span: display: initial;
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+strong: text-transform:uppercase;font-weight:700;display:unset;font-family:Raleway, 'Raleway Fallback';
+div: 
+span: display: unset;
+div: 
+strong: text-transform:uppercase;font-weight:700;display:unset;font-family:Raleway, 'Raleway Fallback';
+div: 
+span: display: unset;
+div: 
+strong: text-transform:uppercase;font-weight:700;display:unset;font-family:Raleway, 'Raleway Fallback';
+div: 
+span: display: unset;
+div: 
+strong: text-transform:uppercase;font-weight:700;display:unset;font-family:Raleway, 'Raleway Fallback';
+div: 
+span: display: unset;
+div: 
+strong: text-transform:uppercase;font-weight:700;display:unset;font-family:Raleway, 'Raleway Fallback';
+div: 
+span: display: unset;
+div: 
+strong: text-transform:uppercase;font-weight:700;display:unset;font-family:Raleway, 'Raleway Fallback';
+div: 
+span: display: unset;
+div: 
+strong: text-transform:uppercase;font-weight:700;display:unset;font-family:Raleway, 'Raleway Fallback';
+div: 
+span: display: unset;
+span: display: unset;
+span: display: unset;
+span: display: unset;
+span: display: unset;
+span: display: initial;
+div: 
+span: display: unset; color: var(--color_1);
+div: 
+span: display: unset; color: var(--color_1);
+span: display: unset; color: var(--color_1);
+a: display: unset; color: var(--color_8);
+span: display: unset; color: var(--color_1);
+span: display: unset; color: var(--color_1);
+div: 
+a: display: unset; color: var(--color_1);
+span: display: unset; color: var(--color_1);
+span: display: unset; color: var(--color_1);
+div: 
+span: color: var(--color_1); display: unset;
+div: 
+a: display: unset;
+span: display: unset;
+span: display: unset;
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: color: var(--color_8); display: initial;
+span: color: var(--color_8); display: initial;
+span: color: var(--color_8); display: initial;
+span: color: var(--color_8); display: initial;
+iframe: border:0;
+div: 
+span: display: unset;
+div: 
+a: display: unset;
+a: display: unset;
+a: display: unset;
+a: display: unset;
+a: display: unset;
+a: display: unset;
+div: 
+span: display: initial;
+div: -ms-grid-column:1; -ms-grid-row:1
+div: animation-delay: 200.0ms;
+div: background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent.gif');
+div: -ms-grid-column:2; -ms-grid-row:1
+div: animation-delay: 400.0ms;
+div: background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent.gif');
+div: -ms-grid-column:3; -ms-grid-row:1
+div: animation-delay: 600.0ms;
+div: background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3f/Transparent.gif');
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+div: 
+span: color: var(--color_8); display: unset;
+div: 
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_8);
+div: 
+span: display: unset; color: var(--color_1);
+div: 
+div: 
+div: display:none;

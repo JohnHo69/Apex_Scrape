@@ -1,0 +1,371 @@
+[
+  {
+    "url": "https://www.apexepoxy-fs.com/",
+    "slug": "home",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 186937,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/about",
+    "slug": "about",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/about",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 203377,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/areas-we-serve",
+    "slug": "areas-we-serve",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/areas-we-serve",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 151113,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/faqs",
+    "slug": "faqs",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/faqs",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 192347,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/gallery",
+    "slug": "gallery",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/gallery",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 225235,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/resources",
+    "slug": "resources",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/resources",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 138310,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/contact",
+    "slug": "contact",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/contact",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 199924,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/annual-floor-cleaning",
+    "slug": "annual-floor-cleaning",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/annual-floor-cleaning",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 180765,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/services/epoxy-floor-coatings",
+    "slug": "services_epoxy-floor-coatings",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/services/epoxy-floor-coatings",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 183834,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/services/metallic-epoxy-flooring",
+    "slug": "services_metallic-epoxy-flooring",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/services/metallic-epoxy-flooring",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 183474,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/services/flake-epoxy-flooring",
+    "slug": "services_flake-epoxy-flooring",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/services/flake-epoxy-flooring",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 183198,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/services/commercial-epoxy-flooring",
+    "slug": "services_commercial-epoxy-flooring",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/services/commercial-epoxy-flooring",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 184116,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/services/concrete-sealing",
+    "slug": "services_concrete-sealing",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/services/concrete-sealing",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 183201,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/services/concrete-surface-preparation",
+    "slug": "services_concrete-surface-preparation",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/services/concrete-surface-preparation",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 184292,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/services/concrete-polishing",
+    "slug": "services_concrete-polishing",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/services/concrete-polishing",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 185005,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/raw-concrete-sealing",
+    "slug": "raw-concrete-sealing",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/raw-concrete-sealing",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 136695,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/metallic-epoxy-floor",
+    "slug": "metallic-epoxy-floor",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/metallic-epoxy-floor",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139566,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/fine-line-salon",
+    "slug": "fine-line-salon",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/fine-line-salon",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 145338,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/aurora-oh",
+    "slug": "service-area_aurora-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/aurora-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 145317,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/kent-oh",
+    "slug": "service-area_kent-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/kent-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 145658,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/cleveland-oh",
+    "slug": "service-area_cleveland-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/cleveland-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 146092,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/akron-oh",
+    "slug": "service-area_akron-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/akron-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 145459,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/lakewood-oh",
+    "slug": "service-area_lakewood-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/lakewood-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 145293,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/youngstown-oh",
+    "slug": "service-area_youngstown-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/youngstown-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 145720,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/canton-oh",
+    "slug": "service-area_canton-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/canton-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 147144,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/medina-oh",
+    "slug": "service-area_medina-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/medina-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 147209,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/solon-oh",
+    "slug": "service-area_solon-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/solon-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 147504,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/stow-oh",
+    "slug": "service-area_stow-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/stow-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 148134,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/hudson-oh",
+    "slug": "service-area_hudson-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/hudson-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 148567,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/service-area/twinsburg-oh",
+    "slug": "service-area_twinsburg-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/service-area/twinsburg-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 149369,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/garage-floor-transformations-epoxy-vs-polyaspartic-coatings-in-cleveland-oh",
+    "slug": "garage-floor-transformations-epoxy-vs-polyaspartic-coatings-in-cleveland-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/garage-floor-transformations-epoxy-vs-polyaspartic-coatings-in-cleveland-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 136857,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/hygienic-chemical-resistant-flooring-for-commercial-kitchens-in-youngstown-oh",
+    "slug": "hygienic-chemical-resistant-flooring-for-commercial-kitchens-in-youngstown-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/hygienic-chemical-resistant-flooring-for-commercial-kitchens-in-youngstown-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139455,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/industrial-flooring-systems-that-handle-heavy-equipment-in-kent-oh",
+    "slug": "industrial-flooring-systems-that-handle-heavy-equipment-in-kent-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/industrial-flooring-systems-that-handle-heavy-equipment-in-kent-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139155,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/raw-concrete-sealing-for-warehouse-floors-in-aurora-oh",
+    "slug": "raw-concrete-sealing-for-warehouse-floors-in-aurora-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/raw-concrete-sealing-for-warehouse-floors-in-aurora-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139115,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/annual-floor-cleaning-maintains-epoxy-systems-in-lakewood-oh",
+    "slug": "annual-floor-cleaning-maintains-epoxy-systems-in-lakewood-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/annual-floor-cleaning-maintains-epoxy-systems-in-lakewood-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139064,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/concrete-polishing-delivers-low-maintenance-floors-in-youngstown-oh",
+    "slug": "concrete-polishing-delivers-low-maintenance-floors-in-youngstown-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/concrete-polishing-delivers-low-maintenance-floors-in-youngstown-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139614,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/concrete-sealing-protects-lakewood-oh-properties-year-round",
+    "slug": "concrete-sealing-protects-lakewood-oh-properties-year-round",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/concrete-sealing-protects-lakewood-oh-properties-year-round",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139298,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/metallic-epoxy-flooring-transforms-spaces-in-akron-oh",
+    "slug": "metallic-epoxy-flooring-transforms-spaces-in-akron-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/metallic-epoxy-flooring-transforms-spaces-in-akron-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139391,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/commercial-epoxy-flooring-solutions-across-cleveland-oh",
+    "slug": "commercial-epoxy-flooring-solutions-across-cleveland-oh",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/commercial-epoxy-flooring-solutions-across-cleveland-oh",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139485,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/flake-epoxy-flooring-in-kent-oh-slip-resistance-and-style",
+    "slug": "flake-epoxy-flooring-in-kent-oh-slip-resistance-and-style",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/flake-epoxy-flooring-in-kent-oh-slip-resistance-and-style",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 139111,
+    "rendered": true
+  },
+  {
+    "url": "https://www.apexepoxy-fs.com/professional-epoxy-floor-coatings-in-aurora-oh-that-last",
+    "slug": "professional-epoxy-floor-coatings-in-aurora-oh-that-last",
+    "status": 200,
+    "final_url": "https://www.apexepoxy-fs.com/professional-epoxy-floor-coatings-in-aurora-oh-that-last",
+    "content_type": "text/html;charset=utf-8",
+    "source_bytes": 138357,
+    "rendered": true
+  }
+]

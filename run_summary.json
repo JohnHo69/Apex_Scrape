@@ -1,0 +1,10 @@
+{
+  "base": "https://www.apexepoxy-fs.com",
+  "pages_crawled": 41,
+  "assets_downloaded": 518,
+  "robots_txt_loaded": true,
+  "sitemap_urls_found": 39,
+  "seed_urls_not_crawled": [],
+  "crawled_not_in_seed_list": [],
+  "pages_with_errors": []
+}

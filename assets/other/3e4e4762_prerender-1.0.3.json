@@ -1,0 +1,34 @@
+{
+    "prerender": [
+        {
+            "where": {
+                "and": [
+                    {"href_matches": "/*", "relative_to": "document"},
+                    {
+                        "not": {
+                            "href_matches": "/logout",
+                            "relative_to": "document"
+                        }
+                    },
+                    {
+                        "not": {
+                            "href_matches": "/signin",
+                            "relative_to": "document"
+                        }
+                    },
+                    {
+                        "not": {
+                            "selector_matches": ".no-prerender"
+                        }
+                    },
+                    {
+                        "not": {
+                            "selector_matches": "[rel~=nofollow]"
+                        }
+                    }
+                ]
+            },
+            "eagerness": "moderate"
+        }
+    ]
+}
